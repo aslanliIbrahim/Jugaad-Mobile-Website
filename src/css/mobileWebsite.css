@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#card-hover-area{
+    /* border: 2px solid red; */
+}
+#card-hover-area .card{
+    border: 2px dashed rgba(0, 0,0,.05);
+    border-radius: 0px 0px 50px 0px;
+    box-shadow: 2px 2px 0 transparent;
+    cursor: pointer;
+    text-align: left;
+    color: #1e1d1d;
+    padding: 1.25rem;
+    max-width: 100%;
+}
+#card-hover-area .active-card{
+    border: 2px solid #ffff;
+    box-shadow: 2px 2px 32px rgb(0,0,0 / 5%);
+}
+
+#card-hover-area .card h3{
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+#card-hover-area .card p{
+    font-size: 1rem;
+}
