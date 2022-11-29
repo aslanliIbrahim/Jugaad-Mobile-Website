@@ -3,12 +3,45 @@
     padding: 0;
     margin: 0;
 }
+#mobile-applications .applications-about{
+    /* border: 2px solid red; */
+    padding: 0;
+}
+#mobile-applications .applications-about h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73.14px;
+    color: #C2021A;
+    margin: 0;
+    margin-bottom: 25px;
+}
+#mobile-applications .applications-about p{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48.74px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+#mobile-applications .applications-about a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 58px;
+    background-color: #C2021A;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 7px;
+    text-decoration: none;
+}
 
 #card-hover-area{
     /* border: 2px solid red; */
+    /* rgba(0, 0,0,.05) */
 }
 #card-hover-area .card{
-    border: 2px dashed rgba(0, 0,0,.05);
+    border: 2px dashed #C2021A;
     border-radius: 0px 0px 50px 0px;
     box-shadow: 2px 2px 0 transparent;
     cursor: pointer;
@@ -18,10 +51,17 @@
     max-width: 100%;
 }
 #card-hover-area .active-card{
-    border: 2px solid #ffff;
+    border: 2px solid #C2021A;
     box-shadow: 2px 2px 32px rgb(0,0,0 / 5%);
 }
-
+#card-hover-area .img-area{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+#card-hover-area .active-card h3{
+   color: #C2021A;
+}
 #card-hover-area .card h3{
     font-size: 1.35rem;
     font-weight: 400;
