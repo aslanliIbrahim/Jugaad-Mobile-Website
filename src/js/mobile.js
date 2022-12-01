@@ -13,12 +13,9 @@ for (let i = 0; i < card.length; i++) {
         } else{
             imgArea.src="https://www.datocms-assets.com/20955/1613379246-process-learn.png?fm=jpg&h=400"
         }
-        
     })
-
     card[i].addEventListener("mouseout", function() {
         card[i].classList.remove("active-card");
-        
     })
 }
 
