@@ -20,6 +20,8 @@ for (let i = 0; i < card.length; i++) {
 }
 
 
+
+
 // card.addEventListener("mouseover", function() {
 //     card.classList.add("active-card");
 //     console.log("Caaaaart");

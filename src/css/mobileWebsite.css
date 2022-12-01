@@ -38,6 +38,16 @@ ul li{
     flex-direction: column;
     justify-content: center;
 }
+.swiper-slide{
+    min-height: 30vh;
+    width: 300px;
+    max-width: 70vw;
+    background-color: rgb(230,230,230);
+}
+
+.swiper-wrapper{
+    transition-timing-function: linear;
+  }
 #mobile-applications{
     margin-bottom: 20px;
 }
