@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-.first-p{
+
+.first-p {
     font-weight: 600;
     font-size: 18px;
     line-height: 26.08px;
@@ -11,34 +12,40 @@
     margin: 0;
     margin-bottom: 16px;
 }
-.second-p{
+
+.second-p {
     font-weight: 400;
     font-size: 18px;
     line-height: 26.08px;
     color: #181818;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-ul li{
+
+ul li {
     font-weight: 400;
     font-size: 17px;
     line-height: 26.08px;
     color: #181818;
 }
-.img-side{
+
+.img-side {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.title-area{
+
+.title-area {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.swiper-slide{
+
+.swiper-slide {
     min-height: 30vh;
     width: 200px;
     max-width: 70vw;
@@ -47,22 +54,27 @@ ul li{
     justify-content: center;
     align-items: center;
 }
-.swiper-slide .card img{
+
+.swiper-slide .card img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
     transition-timing-function: linear;
-  }
-#mobile-applications{
+}
+
+#mobile-applications {
     margin-bottom: 20px;
 }
-#mobile-applications .applications-about{
+
+#mobile-applications .applications-about {
     /* border: 2px solid red; */
     padding: 0;
 }
-#mobile-applications .applications-about h1{
+
+#mobile-applications .applications-about h1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 73.14px;
@@ -70,14 +82,16 @@ ul li{
     margin: 0;
     margin-bottom: 25px;
 }
-#mobile-applications .applications-about p{
+
+#mobile-applications .applications-about p {
     font-size: 36px;
     font-weight: 500;
     line-height: 48.74px;
     margin: 0;
     margin-bottom: 30px;
 }
-#mobile-applications .applications-about a{
+
+#mobile-applications .applications-about a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -90,17 +104,20 @@ ul li{
     border-radius: 7px;
     text-decoration: none;
 }
-#mobile-applications .img-side img{
+
+#mobile-applications .img-side img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
 #about-mobile-applications .img-side img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-#card-hover-area .card{
+
+#card-hover-area .card {
     border: 2px dashed #C2021A;
     border-radius: 0px 0px 50px 0px;
     box-shadow: 2px 2px 0 transparent;
@@ -110,24 +127,93 @@ ul li{
     padding: 1.25rem;
     max-width: 100%;
 }
-#card-hover-area .active-card{
+
+#card-hover-area .active-card {
     border: 2px solid #C2021A;
-    box-shadow: 2px 2px 32px rgb(0,0,0 / 5%);
+    box-shadow: 2px 2px 32px rgb(0, 0, 0 / 5%);
 }
-#card-hover-area .img-area{
+
+#card-hover-area .img-area {
     max-width: 100%;
     height: auto;
     object-fit: contain;
 }
-#card-hover-area .active-card h3{
-   color: #C2021A;
+
+#card-hover-area .active-card h3 {
+    color: #C2021A;
 }
-#card-hover-area .card h3{
+
+#card-hover-area .card h3 {
     font-size: 1.35rem;
     font-weight: 400;
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
-#card-hover-area .card p{
+
+#card-hover-area .card p {
     font-size: 1rem;
+}
+
+#how-we-work h2 {
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C2021A;
+    ;
+}
+
+#how-we-work .work-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#how-we-work .work-card .img-area img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#how-we-work .work-card .title-area>p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #C2021A;
+    margin: 11px 0px 0px;
+}
+
+#how-we-work .work-card .title-area>h3 {
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C2021A;
+    margin: 0px;
+}
+#how-we-work .work-card .desc-area{
+    margin-top: 10px;
+}
+#how-we-work .work-card .desc-area>p {
+    margin:0px;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#how-we-work .for-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #C2021A;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
 }
