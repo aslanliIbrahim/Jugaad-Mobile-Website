@@ -195,11 +195,13 @@ ul li {
     color: #C2021A;
     margin: 0px;
 }
-#how-we-work .work-card .desc-area{
+
+#how-we-work .work-card .desc-area {
     margin-top: 10px;
 }
+
 #how-we-work .work-card .desc-area>p {
-    margin:0px;
+    margin: 0px;
     font-family: Comfortaa;
     font-size: 16px;
     font-weight: 500;
@@ -207,7 +209,8 @@ ul li {
     letter-spacing: 0em;
     text-align: left;
 }
-#how-we-work .for-btn{
+
+#how-we-work .for-btn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -216,4 +219,61 @@ ul li {
     border-radius: 10px;
     color: white;
     text-decoration: none;
+}
+
+#app-development h2 {
+    color: #272626;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1px;
+    text-align: center;
+    width: 50%;
+
+}
+
+#app-development h2 span {
+    color: #C2021A;
+}
+
+#app-development p {
+    width: 65%;
+    color: #181818;
+    text-align: center;
+}
+
+#app-development .card-dev {
+    width: 100%;
+    background: #FFFFFF;
+    border-top: 6px solid #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 50px 0px;
+    padding: 20px;
+}
+
+#app-development .card-dev h4 {
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#app-development .card-dev p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+}
+#app-development .card-dev a{
+    display: inline-flex;
+    align-items: center;
+}
+#app-development .card-dev a i {
+    margin-right: 5px;
 }
