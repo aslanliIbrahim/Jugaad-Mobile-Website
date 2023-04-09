@@ -270,10 +270,56 @@ ul li {
     text-align: left;
     width: 100%;
 }
-#app-development .card-dev a{
+
+#app-development .card-dev a {
     display: inline-flex;
     align-items: center;
 }
+
 #app-development .card-dev a i {
     margin-right: 5px;
+}
+
+#form-area form {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 50%;
+}
+
+#form-area form input {
+    margin-bottom: 13px;
+    padding: 13px 0px;
+    padding-left: 13px;
+    color: white;
+    background: #F8F8F8;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+#form-area form textarea{
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    border: none;
+    outline: none;
+
+}
+#form-area form .btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0px;
+}
+#form-area form button{
+    background: #C2021A;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    width: 30%;
+    color: white;
 }
